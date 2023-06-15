@@ -1,5 +1,7 @@
 package JavaTutorialTR.src.ch01_Variables.tasks01;
 
+import java.util.Scanner;
+
 public class Task01 {
 /* java escape special characters -> https://www.w3schools.com/java/java_strings_specchars.asp
 
@@ -69,10 +71,22 @@ public class Task01 {
 	             65
 	             Yuzme FUTBOL Java ...
 		 */
+        if ( 0 > 5 || 7 > 6 ) {
+            System.out.println("apple");
+        }else{
+            System.out.println("banana");
+        }
 
+         int aci1 =150, aci2 = 20, aci3 = 10;
+        boolean isValid = (aci1+aci2+aci3) ==180;
+        if(isValid) {
+            System.out.print("it's a valid triangle");
 
+        } else {
 
+            System.out.println("Invalid triangle");
 
+        }
 
 
 
@@ -84,5 +98,6 @@ public class Task01 {
 
 
     }
+    }
 
-}
+
