@@ -20,10 +20,21 @@ public class Task04 {
 
 		System.out.println("Toplam sayı adedi: " + sayiadedi);
 		
-		
-
-		
-			
-	}
+		//int i=999;
+	//	int sayac=0;
+		//while ((i>=100)){
+//if(i%4==0&&i%6==0) {
+	//System.out.println(i+" ");
+		//	sayac++;
 
 }
+
+
+//i--;
+		}
+	//System.out.println("kac adet sayi"+sayac);
+		
+			
+
+
+

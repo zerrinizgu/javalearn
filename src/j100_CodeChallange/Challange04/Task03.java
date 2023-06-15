@@ -39,7 +39,7 @@ public class Task03 {
             System.out.println(str2indobleHali);
             System.out.println(str1indobleHali + str2indobleHali);//24.54
 
-            // System.out.println("toplam : "+((Double.parseDouble(str1.replace("$", "")) + Double.parseDouble(str2.replace("$", "")))));
+             System.out.println("toplam : "+((Double.parseDouble(str1.replace("$", "")) + Double.parseDouble(str2.replace("$", "")))));
 
 
 

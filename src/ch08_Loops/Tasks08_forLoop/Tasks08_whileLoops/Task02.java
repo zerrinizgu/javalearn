@@ -18,6 +18,12 @@ public class Task02 {
                 System.out.println("Girilen aralıktaki tamsayılar:");
                 for (int i = baslangic; i <= bitis; i++) {
                     System.out.println(i);
+
+          //ınt ı=Math.min(sayi1,sayi2);
+         // while (i <= Math.min(sayi1,sayi2))
+
+
+
     }
 }
     }

@@ -19,7 +19,18 @@ public class Task07 {
             }
 
             System.out.println("En büyük sayı: " + enBuyuk);
+        //  while (count <= 5) {
+        //    System.out.println(count + ". sayıyı girin: ");
+        //  int sayi = input.nextInt();
 
+        //if (sayi > enBuyukSayi) {
+        // enBuyukSayi = sayi;
+        // }
+
+        //  count++;
+        //  }
+
+        //  System.out.println("En büyük sayı: " + enBuyukSayi);
 
 
         }

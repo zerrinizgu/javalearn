@@ -24,8 +24,9 @@ public class Task03 {
 			}
 
 			System.out.println(); //dummy kod islevsiz kodu okumayi ve konsol kozme
-
-
+		//int i=1;
+		//while (i<=10){
+		//System.out.println("sayi*j degeri= "+sayi +"*"+j +" = " + sayi*j);
 
 
 	}
