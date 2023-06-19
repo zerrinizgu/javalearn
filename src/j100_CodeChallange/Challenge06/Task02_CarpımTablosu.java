@@ -13,7 +13,7 @@ public class Task02_CarpımTablosu {
     // 1 x 10 = 10
     // Task-> Yukarıdaki çarpım tablosunu 10 a kadar print eden code create ediniz.
 
-    public static void main(String[] args) {
+    public static <String> void main(String[] args) {
 
     }
 }

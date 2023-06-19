@@ -41,7 +41,7 @@ public class C01_MethodCreation {
 
     }//main sonu
 
-    private static void topla3() {//intellij e create ettirilen method
+    public static void topla3() {//intellij e create ettirilen method
         int a = 55;
         int b = 9 ;
         System.out.println(a+b);

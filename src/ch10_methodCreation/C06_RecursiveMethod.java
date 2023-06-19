@@ -25,4 +25,9 @@ Bazı karmaşık çözülmesi güç problemlerde döngülere göre daha kısa ve
     return sayi*factorial(sayi-1);
 
 }else return 1;
+
+
+
+
+
 }}

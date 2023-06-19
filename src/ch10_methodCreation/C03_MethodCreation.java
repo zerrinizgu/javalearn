@@ -8,7 +8,6 @@ public class C03_MethodCreation {
 
         Scanner input = new Scanner(System.in);
         System.out.println("bir tam sayi gir");
-
         int sayi = input.nextInt();
 
         System.out.println("rakamlarToplami(sayi) = " + rakamlarToplami(sayi));//method call edildi
