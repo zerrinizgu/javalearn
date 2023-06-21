@@ -1,5 +1,4 @@
-package ch10_methodCreation.tasks10;
-
+package ch10_methodCreation.tasks10.tasks10_Methods;
 
 import java.util.Scanner;
 
@@ -16,27 +15,19 @@ public class Task08 {
 
     Beklenen Çıktı:
     false
-    */ Scanner input = new Scanner(System.in);
+    */
+        Scanner input = new Scanner(System.in);
         System.out.println("Yıl giriniz: ");
         int year= input.nextInt();
         System.out.println(artikYil(year));
 
 
-
     }
-private static boolean artikYil(int year) {
-      return year%4==0 &&(year%100!=0 ||year%400==0);
 
-
-
-
-
-
-
-
-
-
-}
+    private static boolean artikYil(int year) {
+        return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
+        //return (year%4==0 && year%100!=0 ) || (year%100==0 && year%400==0);
+    }
 
 
 }
