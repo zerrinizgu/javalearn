@@ -11,9 +11,7 @@ public class C02_ifStatement {
 
         Scanner input = new Scanner(System.in);
         System.out.println("yasini gir");
-
         int yas = input.nextInt();
-
         if (yas >= 18){//yasin 18 ve daha buyul olup olmadigi kontrol edildi
             System.out.println("ehliyet alma sansiniz var");
         }else {//yularida sarttan sonra else yas 18 den kucuk use calisir

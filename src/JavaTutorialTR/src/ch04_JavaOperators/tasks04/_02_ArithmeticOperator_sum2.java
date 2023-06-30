@@ -9,8 +9,13 @@ public class _02_ArithmeticOperator_sum2 {
 
 
         //Kodu aşağıya yazınız.
+int a=12;
+int b=56;
+int c=78;
+int d=45;
+int toplam=a+b+c+d;
 
-
+        System.out.println("toplam = " + toplam);
 
     }
 }

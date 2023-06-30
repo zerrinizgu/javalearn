@@ -11,7 +11,10 @@ public class _08_ArithmeticOperator_multiply1 {
 
 
         //Kodu aşağıya yazınız.
-
+double num1 =12.6;
+double num2 =23;
+double num3 =5;
+        System.out.println("carpim="+0.1*num1*num2*num3);
 
 
     }

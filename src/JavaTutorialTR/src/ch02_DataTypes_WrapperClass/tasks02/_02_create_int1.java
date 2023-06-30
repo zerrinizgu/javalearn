@@ -8,7 +8,8 @@ public class _02_create_int1 {
            Int'i yazdırın  */
 
         // Kodu aşağıya yazınız.
-
+int a=15;
+        System.out.println("a = " + a);
 
     }
 }

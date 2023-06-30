@@ -35,7 +35,7 @@ public class Task12 {
     }
 
     private static boolean mailControl(String str) {
-        return ( str.contains("@") && str.contains(".")&& str.substring(0, str.indexOf(" @")).length()!=0);
+        return ( str.contains("@") && str.contains(".")&& str.substring(0, str.indexOf("@")).length()!=0);
 
 
 

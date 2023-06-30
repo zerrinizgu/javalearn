@@ -15,14 +15,14 @@ public class Task01 {
 		      OUTPUT: "Your grade is : 81,6"
 
 		 */
-        Scanner scan = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("mid-term grade");
-int midTerm=scan.nextInt();
+        int midTerm = input.nextInt();
         System.out.println("project");
-        int project=scan.nextInt();
+        int project = input.nextInt();
         System.out.println("final grade");
-        int grade=scan.nextInt();
-double result=midTerm*0.3+project*0.2+grade*0.5;
+        int grade = input.nextInt();
+        double result = midTerm * 0.3 + project * 0.2 + grade * 0.5;
         System.out.println(result);
 
 

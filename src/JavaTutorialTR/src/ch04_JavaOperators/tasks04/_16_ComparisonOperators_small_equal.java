@@ -11,7 +11,9 @@ public class _16_ComparisonOperators_small_equal {
            Örnek:   15>=15  */
 
         // Kodu aşağıya yazınız.
-
+int a=13;
+int b=13;
+        System.out.println("(a<b||a==b) = " + (a < b || a == b));
 
     }
 }

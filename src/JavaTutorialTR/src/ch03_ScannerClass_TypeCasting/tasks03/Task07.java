@@ -2,6 +2,8 @@ package JavaTutorialTR.src.ch03_ScannerClass_TypeCasting.tasks03;
 
 import java.util.Scanner;
 
+
+
 public class Task07 {
 
     public static void main(String[] args) {
@@ -16,9 +18,12 @@ public class Task07 {
         Hızı giriniz: 100
         Süre 4 saattir.
      */
-        Scanner scan = new Scanner(System.in);
-        System.out.println("mid-term grade");
-        int midTerm=scan.nextInt();
+        Scanner input = new Scanner(System.in);
+        System.out.println("mesafe girin:");
+        int mesafe =input.nextInt();
+        System.out.println("hizi girin:");
+        int hiz =input.nextInt();
+        System.out.println("sure="+(mesafe/hiz));
 
 
     }

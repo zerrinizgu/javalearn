@@ -1,5 +1,7 @@
 package ch10_methodCreation.tasks10;
 
+import java.util.Scanner;
+
 public class Task14 {
 
     public static void main(String[] args) {
@@ -26,10 +28,33 @@ public class Task14 {
 
     toplam = 536.0
     */
+        fazlamesai();
+        toplamkazanc();
 
+    }
 
+    private static void toplamkazanc() {
+    }
 
+    private static void toplamkazanc( double birimUcret, double baslamaSaati,double bitissaati,double fazlaMesaiCarpani) {
+        int mesai= (int) (bitissaati - baslamaSaati);
+        double toplamkazanc = (mesai >= 8) ? (8 * birimUcret + ((mesai) - 8) * 40 * fazlaMesaiCarpani) : mesai * birimUcret;
+        System.out.println("ToplamKazanc = " + toplamkazanc);
 
+    }
+
+    private static void fazlamesai() {
+        Scanner input = new Scanner(System.in);
+        System.out.println("saatlik calisma ucretini giriniz");
+        double birimUcret = input.nextDouble();
+        System.out.println("ise baslama saati girin");
+        double baslamaSaati = input.nextDouble();
+        System.out.println("bitis saati girin");
+        double bitissaati = input.nextDouble();
+        System.out.println("fazla mesai carpani girin");
+        double fazlaMesaiCarpani = input.nextDouble();
+
+        toplamkazanc( birimUcret,  baslamaSaati, bitissaati,fazlaMesaiCarpani);
     }
 
 

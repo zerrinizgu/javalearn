@@ -7,9 +7,8 @@ public class _17_create_char1 {
     /*    a olan bir char oluşturun.
           Bu char'ı yazdırın.   */
 
-        //Kodu aşağıya yazınız.
-
-
-
+        //Kodu aşağıya yazınız.c
+char x='a';
+        System.out.println("x = " + x);
     }
 }

@@ -1,5 +1,7 @@
 package JavaTutorialTR.src.ch03_ScannerClass_TypeCasting.tasks03;
 
+import java.util.Scanner;
+
 public class _23_Scanner2 {
 
     public static void main(String[] args) {
@@ -9,8 +11,9 @@ public class _23_Scanner2 {
           Bu sayıyı yazdırın.   */
 
         //Kodu aşağıya  yazınız.
-
-
+        Scanner input = new Scanner(System.in);
+        System.out.println("sayi gir");
+int sayi= input.nextInt();
 
 
     }

@@ -11,7 +11,7 @@ public class _11_if_else_if_statement_with_logic_operators3 {
         "String is I love java" yazdırın. */
 
 String str="i love java";
-if (str == null &&str.length()==14&&str.contains("i love java")) System.out.println("String is i love java and 14 character.");
+if (str != null &&str.length()==14&&str.contains("i love java")) System.out.println("String is i love java and 14 character.");
 if (str != null &&str.equalsIgnoreCase("i love java")) System.out.println("String is I love java");
     }
 }

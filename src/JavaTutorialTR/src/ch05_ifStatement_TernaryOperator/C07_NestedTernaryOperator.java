@@ -16,25 +16,10 @@ public class C07_NestedTernaryOperator {
 
          */
         Scanner input = new Scanner(System.in);
-        System.out.println("bir sayi gir");
+        System.out.println("bir poz.sayi gir");
         int sayi = input.nextInt();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+String result =sayi>999&&sayi<10000?"4 basamaklı":sayi%2==0?"4 basamaklı olmayan cift sayi":"4 basamaklı olmayan tek sayı ";
+        System.out.println(result);
 
 
     }

@@ -9,6 +9,7 @@ public class _03_create_int3 {
 
         //Kodu aşağıya yazınız.
 
-
+int a=120;
+        System.out.println("a = " + a);
     }
 }

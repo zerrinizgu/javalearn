@@ -8,6 +8,10 @@ public class _01_ArithmeticOperator_sum {
 
 
         //Kodu aşağıya yazınız.
+        int num1 =12;
+        int num2 =17;
+        System.out.println("toplam="+(num1+num2));
+
 
     }
 }

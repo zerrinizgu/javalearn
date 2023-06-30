@@ -10,6 +10,11 @@ public class _10_Arithmetic_Operator_multiply3 {
 
 
         //Kodu aşağıya yazınız.
+int num1 =12;
+int num2 =56;
+int num3 =45;
+int num4 =56;
+        System.out.println("carpim="+num1*num2*num3*num4);
 
 
 

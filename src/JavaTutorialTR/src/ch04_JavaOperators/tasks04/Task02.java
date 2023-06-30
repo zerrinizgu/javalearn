@@ -17,6 +17,11 @@ public class Task02 {
 			1x10=10
 		 */
 
+int number = 1;
+		for (int i = 1; i <= 10; i++) {
+			int result = number * i;
+			System.out.println(number+"x"+i+"="+result);
+		}
 
 
 

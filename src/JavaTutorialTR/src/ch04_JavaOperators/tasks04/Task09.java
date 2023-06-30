@@ -12,20 +12,20 @@ public class Task09 {
      */
 
     public static void main(String[] args) {
-        Scanner scan=new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("ineksayisi:");
-        int inek=scan.nextInt();
+        int inek = scan.nextInt();
 
-        System.out.println("inekayak");
+
         System.out.println("koyunsayisi:");
-        int koyun=scan.nextInt();
+        int koyun = scan.nextInt();
 
         System.out.println("tavuksayisi:");
-        int tavuk=scan.nextInt();
+        int tavuk = scan.nextInt();
 
-      int toplamayaksayisi=inek*4+koyun*4+tavuk*2;
-        System.out.println("toplamayaksayisi:"+toplamayaksayisi);
-
+        System.out.println("inekayaksayisi="+inek*4+"tur");
+        System.out.println("koyunayaksayisi="+koyun*4+"tur");
+        System.out.println("tavukayaksayisi="+tavuk*2+"tur");
 
     }
 

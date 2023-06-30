@@ -12,6 +12,8 @@ public class _06_ArithmeticOperator_division1 {
 
 
         //Kodu aşağıya yazınız.
-
+int num1 =12;
+int num2 =3;
+        System.out.println("bolme="+num1/num2);
     }
 }

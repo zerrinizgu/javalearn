@@ -8,7 +8,8 @@ public class _09_create_double3 {
           Double'ı yazdırınız.   */
 
         //Kodu aşağıya yazınız.
-
+double x = 10.01;
+        System.out.println("x = " + x);
 
 
     }

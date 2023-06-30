@@ -12,12 +12,10 @@ _01_if_statement {
         Eğer (if) Birinci int, İkinci int'den küçükse "int 1 is smaller than 2" yazdırın.  */
 
         //Kodu aşağıya yazınız.
-        Scanner scan = new Scanner(System.in);
-        System.out.println("boy(cm):");
-        System.out.println("kilo(kg):");
-        int boy=scan.nextInt();
-
-
+      int a =35;
+      int b =23;
+      if (a>b) System.out.println("int 1 is greater than 2");
+        if (a<b) System.out.println("int 1 is smaller than 2");
 
     }
 }

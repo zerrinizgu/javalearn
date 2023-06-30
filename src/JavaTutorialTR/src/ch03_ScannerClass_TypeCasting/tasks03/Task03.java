@@ -16,7 +16,7 @@ public class Task03 {
         Scanner scan = new Scanner(System.in);
         System.out.println("gunde kac saat uyuyorsun:");
         int uyku= scan.nextInt();
-        System.out.println("ayda: "+(uyku*30/24.0)+"yilda:"+(uyku*365/24.0  )+"40 yilda:"+(uyku*365*40/24.0));
+        System.out.println("ayda: "+" " +(uyku*30/24.0)+ " "+ "yilda:"+" " +(uyku*365/24.0  )+" "+ "40 yilda:" +(uyku*365*40/24.0));
 
 
 

@@ -12,8 +12,9 @@ public class C05_TernaryOperator {
         System.out.println("bir sayi gir");
 
         int sayi = input.nextInt();
-        String result =(sayi % 2 == 0) ? String.valueOf(sayi/2) : ((sayi % 2 == 1 ? "gırılen sayının yarısı tamsayı degıldır" :
+        String result = (sayi % 2 == 0) ? String.valueOf(sayi / 2) : ((sayi % 2 == 1 ? "gırılen sayının yarısı tamsayı degıldır" :
                 "tekrar sayi giriniz"));
         System.out.println(result);
 
-    }}
+    }
+}

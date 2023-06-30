@@ -10,7 +10,9 @@ public class _03_ArithmeticOperator_subtract1 {
 
 
         //Kodu aşağıya yazınız.
-
-
+int num1 =56;
+int num2 =67;
+int fark=num1-num2;
+        System.out.println("fark = " + fark);
     }
 }

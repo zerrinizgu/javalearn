@@ -17,7 +17,7 @@ public class Task08 {
     Beklenen Çıktı:
     false
     */ Scanner input = new Scanner(System.in);
-        System.out.println("Yıl giriniz: ");
+        System.out.println("year giriniz: ");
         int year= input.nextInt();
         System.out.println(artikYil(year));
 

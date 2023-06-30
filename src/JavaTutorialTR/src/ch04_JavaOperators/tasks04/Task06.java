@@ -18,20 +18,13 @@ public class Task06 {
          */
         Scanner input = new Scanner(System.in);
         System.out.println("3 basamakli bir sayi giriniz:");
-        int sayi= input.nextInt();
+        int sayi = input.nextInt();
 
-        int birlerbasamagi =sayi%10;
-        sayi=sayi/10;
-int onlarbasamagi=sayi%10;
-int yuzlerbasamagi=sayi/10;
-        System.out.println("sayinin birlerbasamagi:"+birlerbasamagi+"\nsayinin onlarbasamagi:"+onlarbasamagi+"\nsayinin yuzlerbasamagi:"+yuzlerbasamagi);
-
-
-
-
-
-
-
+        int birlerbasamagi = sayi % 10;
+        sayi = sayi / 10;
+        int onlarbasamagi = sayi % 10;
+        int yuzlerbasamagi = sayi / 10;
+        System.out.println("sayinin birlerbasamagi:" + birlerbasamagi + "\nsayinin onlarbasamagi:" + onlarbasamagi + "\nsayinin yuzlerbasamagi:" + yuzlerbasamagi);
 
 
     }

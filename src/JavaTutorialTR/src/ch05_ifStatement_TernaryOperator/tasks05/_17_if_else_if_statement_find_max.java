@@ -21,8 +21,8 @@ if (a>b&&a>c){
     System.out.println("b maximum");
 
 
-}else if(c>a&&c>b){
+}else if(c>a&&c>b)
             System.out.println("c maximum");
-        }
+
     }
 }

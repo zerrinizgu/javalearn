@@ -1,5 +1,7 @@
 package JavaTutorialTR.src.ch05_ifStatement_TernaryOperator.tasks05;
 
+import java.util.Scanner;
+
 public class Ex07 {
 
     public static void main(String[] args) {
@@ -11,8 +13,28 @@ public class Ex07 {
 
 
          */
+        Scanner input = new Scanner(System.in);
+        System.out.println("ehliyetiniz var mi(evet/hayir):");
+        String ehliyetVarmi = input.nextLine();
 
+        if (ehliyetVarmi.equalsIgnoreCase("evet")) {
+            System.out.println("tecrube yilini giriniz");
+            int tecrubeYili = input.nextInt();
+            System.out.println("mesafe giriniz");
+            int mesafe = input.nextInt();
 
-
+            if (tecrubeYili >= 7 && mesafe >= 100000) {
+                System.out.println("kontak anahtarini alabilirsiniz");
+            } else {
+                int EksiktecrubeYili = 7 - tecrubeYili;
+                System.out.println("EksiktecrubeYili = " + EksiktecrubeYili+"kadar yiliniz eksik");
+                int EksikMesafe = 100000 - mesafe;
+                System.out.println("EksikMesafe = " + EksikMesafe+"kadar mesafeniz eksik");
+            }
+        } else
+            System.out.println("ehliyetiniz yok,islem yapamayiz");
     }
 }
+
+
+

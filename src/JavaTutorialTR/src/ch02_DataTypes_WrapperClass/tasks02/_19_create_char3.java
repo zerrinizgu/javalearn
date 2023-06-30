@@ -8,7 +8,8 @@ public class _19_create_char3 {
           Bu char'ı yazdırın.   */
 
         //Kodu aşağıya yazınız.
-
+char a='&';
+        System.out.println("a = " + a);
 
 
     }

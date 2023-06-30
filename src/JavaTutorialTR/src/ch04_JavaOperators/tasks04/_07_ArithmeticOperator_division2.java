@@ -11,8 +11,10 @@ public class _07_ArithmeticOperator_division2 {
 
 
         //Kodu aşağıya yazınız.
-
-
+int num1 =12;
+int num2 =4;
+int sonuc=num1/num2;
+        System.out.println("sonuc = " + sonuc);
 
 
     }

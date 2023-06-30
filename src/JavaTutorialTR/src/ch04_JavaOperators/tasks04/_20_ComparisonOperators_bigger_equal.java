@@ -9,7 +9,9 @@ public class _20_ComparisonOperators_bigger_equal {
             Sonucu yazdırınız. */
 
         //Kodu aşağıya yazınız.
-
+float a=14;
+float b=17;
+        System.out.println("(a>=b||a>b) = " + (a >= b || a > b));
 
     }
 }
