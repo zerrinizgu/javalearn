@@ -32,7 +32,7 @@ public class Task07 {
     private static double enkucuksayi(double sayi1, double sayi2, double sayi3) {
         return Math.min(sayi1,Math.min(sayi2,sayi3));
 
-
+	//return sayi1<sayi2?(sayi1<sayi3?(sayi1):(sayi3)):(sayi2<sayi3?(sayi2):(sayi3));
     }
 }
 

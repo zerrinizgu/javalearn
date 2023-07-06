@@ -7,21 +7,20 @@ public class Task08 {
     public static void main(String[] args) {
         //Task-> girilen 7 elemanlı bir int  arrayın tek elemanlarını print eden code create ediniz.
         Scanner input = new Scanner(System.in);
+        int [] numArr=new int[7];
+        //int [] oddNumbersOfArray = new int[7];
 
-        int[] arr = new int[7];
-
-        for (int i = 0; i < 7; i++) {
-            arr[i] = input.nextInt();
-            System.out.println(i + 1 + ". nci degeri gir");
-
+        for (int i = 0; i < 7 ; i++) {
+            System.out.println(i+1 +". nci degeri gir");
+            numArr[i]=input.nextInt();//boyut kadar kullanicindan deger alinarak arr array inin elemanlari atandi
         }
-        System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
 
         for (int i = 0; i < 7; i++) {
-            if(i%2!=0)
-                System.out.println("arr[i] = " + arr[i]);
+            if (numArr[i]%2==1) {
+                System.out.print(numArr[i]+" ");
+            }
+        }
+        //System.out.println("oddNumbersOfArray = " + Arrays.toString(oddNumbersOfArray));
 
-
-    }
 }
 }

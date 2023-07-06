@@ -14,11 +14,13 @@ public class Task14 {
         String[] str = {"ade1r4d3"};
         String input = str[0];
 
-        int karakterlertoplami=hesaplakarakterlertoplami(input);
-        System.out.println("karakterlertoplami = " + karakterlertoplami);
+        int sayilartoplami=hesaplasayilartoplami(input);
+        System.out.println("sayilartoplami = " + sayilartoplami);
+
+        
     }
 
-    private static int hesaplakarakterlertoplami(String input) {
+    private static int hesaplasayilartoplami(String input) {
         int sum = 0;
         for (int i = 0; i < input.length(); i++) {
             char ch = input.charAt(i);

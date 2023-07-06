@@ -12,7 +12,6 @@ public class Task09 {
         for (int i = 0; i < 5; i++) {
             arr[i] = input.nextInt();
 
-
         }
         System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
 
