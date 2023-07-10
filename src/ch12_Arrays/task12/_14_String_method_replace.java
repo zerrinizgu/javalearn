@@ -13,5 +13,14 @@ public class _14_String_method_replace {
         String[] arr = {"Hello World" };
         System.out.println("Hello World".replace("o", "K"));
 
+        String str="Hello World";
+        String [] array=str.split("");
+        System.out.println("str.toString() = " + str.toString());
+        System.out.println("str.replace(\"o\", \"K\") = " + str.replace("o", "K"));
+
+
+
+
+
     }
 }

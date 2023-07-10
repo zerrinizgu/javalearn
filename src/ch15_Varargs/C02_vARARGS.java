@@ -9,7 +9,6 @@ array ve varargs method:
         int[] arr = {1, 2, -3, 4, -5, -6};
 
         arrTopla(arr);
-
         varargsTopla(arr);
         varargsTopla(22,55,66,33,99,88,77,44,555);
         System.out.println("varargsTopla(22,55,66,33,99,88,77,44,555) = " + varargsTopla(22, 55, 66, 33, 99, 88, 77, 44, 555));
