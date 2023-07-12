@@ -12,21 +12,15 @@ public class Task03 {
        input:  [1,2, 3]
         output [2, 3, 1]
         */
-// arraydeki her bir elemani index degeri kadar artiralim//kod calismadi
-        int[] array = {1, 2, 3};
-        int length = array.length;
-
-        // Diziyi bir sola kaydırma
-        int temp = array[0];
-        for (int i = 0; i < length - 1; i++) {
-            array[i] = array[i + 1];
+// arraydeki her bir elemani index degeri kadar artiralim//
+        int[] array={1,2,3};
+        System.out.println("Arrays.toString(array) = " + Arrays.toString(array));
+        int yeniArray[]=new int[array.length];
+        for (int i = 0; i < array.length; i++) {
+            yeniArray[i] += array[i+1];
         }
-        array[length - 1] = temp;
-
-        // Sonucu yazdırma
-        for (int i = 0; i < length; i++) {
-            System.out.print(array[i] + " ");
-        }
+        yeniArray[array.length-1] =array[0];
+        System.out.println("Arrays.toString(yeniArray) = " + Arrays.toString(yeniArray));
 
 
     }
