@@ -1,6 +1,7 @@
 package ch13_ArrayList.Task13;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class _08_arraylist8 {
@@ -15,34 +16,14 @@ public class _08_arraylist8 {
         CEVAP : 6
      */
     public static void main(String[] args) {
-        ArrayList<Integer> arrayList = new ArrayList<>();
-        arrayList.add(5);
-        arrayList.add(3);
-        arrayList.add(4);
-        arrayList.add(6);
-        arrayList.add(7);
-
-        int secondMax = secondMax(arrayList);
-        System.out.println("Second Max: " + secondMax);
+        ArrayList<Integer>list=new ArrayList<>(Arrays.asList( 5,3,4,6,7));
+        System.out.println("list ilkbas= " + list);
+        System.out.println("secondMax(list) = " + secondMax(list));
     }
 
-    public static int secondMax(ArrayList<Integer> arrayList) {
-        if (arrayList.size() < 2) {
-            throw new IllegalArgumentException("ArrayList must have at least 2 elements");
-        }
-
-        // ArrayList'i küçükten büyüğe sırala
-        Collections.sort(arrayList);
-
-        // En yüksek değeri al
-        int max = arrayList.get(arrayList.size() - 1);
-
-        // En yüksek değeri çıkar
-        arrayList.remove(arrayList.size() - 1);
-
-        // İkinci en yüksek değeri al
-        int secondMax = arrayList.get(arrayList.size() - 1);
-
-        return secondMax;
+    private static int secondMax(ArrayList<Integer>list) {
+        Collections.sort(list);
+        System.out.println("list sort sonrasi= " + list);
+        return list.get(list.size() - 2);
     }
 }

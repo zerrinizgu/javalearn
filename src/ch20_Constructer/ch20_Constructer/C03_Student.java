@@ -1,4 +1,4 @@
-package ch20_Constructer;
+package ch20_Constructer.ch20_Constructer;
 
 public class C03_Student {//POJO class , plain old java object (reel de adi entity class)
                             //main meth olmayan obje create etmek icin tasarlanmis class

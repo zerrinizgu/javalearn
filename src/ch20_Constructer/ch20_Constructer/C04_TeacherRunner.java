@@ -1,4 +1,4 @@
-package ch20_Constructer;
+package ch20_Constructer.ch20_Constructer;
 
 public class C04_TeacherRunner {
     public static void main(String[] args) {

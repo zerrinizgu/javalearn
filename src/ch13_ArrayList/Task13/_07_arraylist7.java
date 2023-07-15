@@ -1,6 +1,7 @@
 package ch13_ArrayList.Task13;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class _07_arraylist7 {
 
@@ -21,31 +22,28 @@ public class _07_arraylist7 {
      */
 
     public static void main(String[] args) {
-        ArrayList<Integer> arrayList1 = new ArrayList<>();
-        arrayList1.add(3);
-        arrayList1.add(2);
-        arrayList1.add(5);
-        arrayList1.add(6);
+        ArrayList<Integer> arrayList1 = new ArrayList<>(Arrays.asList(8, 7, 9, 6, 7,6));
+        ArrayList<Integer> arrayList2 = new ArrayList<>(Arrays.asList(6, 7, 12, 3, 1));
 
-        ArrayList<Integer> arrayList2 = new ArrayList<>();
-        arrayList2.add(5);
-        arrayList2.add(8);
-        arrayList2.add(9);
-
-        ArrayList<Integer> commonValues = common_values(arrayList1, arrayList2);
-        System.out.println("Common Values: " + commonValues);
+        System.out.println(common_values(arrayList1, arrayList2));
     }
 
     private static ArrayList<Integer> common_values(ArrayList<Integer> arrayList1, ArrayList<Integer> arrayList2) {
-        ArrayList<Integer> commonValues = new ArrayList<>();
-
-        for (int num : arrayList1) {
-            if (arrayList2.contains(num)) {
-                commonValues.add(num);
-            }
+        ArrayList<Integer> common_values = new ArrayList<>();
+        for (
+                int i = 0;
+             i <Math.min(arrayList1.size(),arrayList2.size()) ; i++)
+        {
+            if (arrayList2.contains(arrayList1.get(i)) && !(common_values.contains(arrayList1.get(i)))) {
+               common_values.add(arrayList1.get(i));
+           }
         }
-
-        return commonValues;
+        return common_values;
     }
-}
+
+            }
+
+
+
+
 
