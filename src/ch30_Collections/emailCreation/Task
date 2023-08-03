@@ -9,7 +9,7 @@ Bu Java sınıfı bir e-posta uygulamasını temsil eder.
   emailSuffix ornek "gmail.com" clarusway.com
   passwordLength=12; //olusturlucak passwordlerin length inin 12 olmasi istendigi icin
 
-******step 2 JWT token gibi dusunun*****
+step 2 JWT token gibi dusunun
 rastgele bir şifre oluşturmasıni saglayan method create edin.
 kullanıcının rastgele bir şifre oluşturması için bir
 setRandomPassWord() metodu create edin.
