@@ -15,7 +15,8 @@ public class C06_Passat extends C02_VolksWagen
 
     @Override
     public void kapi() {
-        System.out.println("5 kapi orjinal asiret kasa");
+        System.out.println
+                ("5 kapi orjinal asiret kasa");
     }
 
     @Override
