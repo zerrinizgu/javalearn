@@ -4,11 +4,18 @@ import java.util.*;
 
 
 public class Calisma_class {
-    public static void main(String[] args) {
 
-        String s = "java2s".replace('a', 'Z').trim().concat("Aa");
-        s.substring(0, 2);
-        System.out.println("s = " + s);
+    public static void main(String[] args) {
+      String a="";
+      a+=5;
+      a+='c';
+      a+=true;
+        if (a == "5ctrue") {
+            System.out.println(a+ "<==");
+        }
+        if ((a.equals("5ctrue")) ) {
+            System.out.println( "==>" + a);
+        }
     }
 }
 
