@@ -16,7 +16,7 @@ public class Runner {
 
         cvc1.lastikEbat();
         cvc1.motor();
-        cvc1.motor();
+        cvc1.kisLastik();
 
 
 

@@ -1,7 +1,5 @@
 package ch27_Abstraction.task27.Ornek1;
 
-// abstract anahtar kelimesi ile abstract class oluşturmuş oluyoruz.
-
 public abstract class BinekOto {
     private String marka;
     private int uretimYili;
@@ -21,4 +19,21 @@ public abstract class BinekOto {
     public void setUretimYili(int uretimYili) {
         this.uretimYili = uretimYili;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
