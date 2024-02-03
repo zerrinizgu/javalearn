@@ -28,7 +28,7 @@ public class C03_Concatination {
         int b = 11 ;
 
         System.out.println(name + lastName + a+b);//Zeynep hanimFitnat711
-            // stringden sonra sını tam sayi olsa bile concat eder
+            // stringden sonrasını tam sayi olsa bile concat eder
 
         System.out.println(a + name + lastName + b);//7Zeynep hanimFitnat11
 
